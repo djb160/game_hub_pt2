@@ -17,6 +17,12 @@ export interface Game {
   rating_top: number;
 }
 
+// const useGames = (gameQuery: GameQuery) => {
+//     return useQuery({
+
+//     });
+// }
+
 const useGames = (gameQuery: GameQuery) =>
   useData<Game>(
     "/games",
