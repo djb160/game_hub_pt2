@@ -7,7 +7,7 @@ import SortSelector from '../components/SortSelector';
 
 
 
-const Homepage = () => {
+const HomePage = () => {
     return (
         <Grid
         templateAreas={{
@@ -40,4 +40,4 @@ const Homepage = () => {
     )
 }
 
-export default Homepage
+export default HomePage
