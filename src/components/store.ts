@@ -6,6 +6,9 @@ interface GameQuery {
     platformId?: number;
     sortOrder?: string;
     searchText?: string;
+    slug?: string;
+    description?: string;
+    description_raw?: string;
 }
 
 interface GamesQueryStore {
