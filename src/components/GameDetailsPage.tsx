@@ -4,6 +4,7 @@ import useGame from './../hooks/useGame';
 import ExpandableText from './ExpandableText';
 // import parse from "html-react-parser";
 import GameAttributes from './GameAttributes';
+import GameTrailer from './GameTrailer';
 
 
 
@@ -21,6 +22,7 @@ const GameDetailsPage = () => {
                 <Heading>{game?.name}</Heading>
                 <ExpandableText>{game?.description}</ExpandableText>
                 <GameAttributes game={game} />
+                <GameTrailer gameId={game?.id} />
                 
             </>            
         )
