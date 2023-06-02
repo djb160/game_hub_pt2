@@ -5,6 +5,7 @@ import ExpandableText from './ExpandableText';
 // import parse from "html-react-parser";
 import GameAttributes from './GameAttributes';
 import GameTrailer from './GameTrailer';
+import GameScreenshots from './GameScreenshots';
 
 
 
@@ -23,6 +24,7 @@ const GameDetailsPage = () => {
                 <ExpandableText>{game?.description}</ExpandableText>
                 <GameAttributes game={game} />
                 <GameTrailer gameId={game?.id} />
+                <GameScreenshots gameId={game.id} />
                 
             </>            
         )
